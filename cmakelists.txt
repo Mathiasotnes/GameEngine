@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.13)
+project(GameEngine VERSION 1.0
+                  DESCRIPTION "Game Engine"
+                  LANGUAGES CXX)
+
+
+# including all files
+file(GLOB GameEngine_SRC
+     "inc/*.h"
+     "src/*.cpp"
+     "app/*.cpp"
+)
+
+# Creating executable
+add_executable(GameEngine ${GameEngine_SRC})
