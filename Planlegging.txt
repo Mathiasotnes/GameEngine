@@ -1,11 +1,10 @@
 Planlegging av game enginge
 
-Direct3D https://learn.microsoft.com/en-us/windows/win32/direct3d
-Av Microsoft er en low-level måte å fremstille grafikk på.
+Bruker OpenGL
 
-1. Lage en API med høyt abstraksjonsnivå
-    - Rendering
-    - Input
-    - Game loop
-2. Implementere alle funksjoner, logikk, fysikk, grafikk osv. i egne filer.
-3. Velg en nice kompilator, bruke cmake???
+1.  fysikk
+2.  Rendering
+3.  Input
+4.  Hit detection / collision
+5.  Animation
+

@@ -1,6 +1,6 @@
 #include "../inc/api.h"
 
 
-std::string API::hello_world() {
+std::string GE::hello_world() {
     return "Hello World!";
 }

@@ -5,7 +5,7 @@
 
 
 
-namespace API {
+namespace GE {
     
 std::string hello_world();
 

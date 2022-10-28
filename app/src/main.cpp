@@ -8,6 +8,7 @@
 /* User libaries */
 #include "../inc/main.h"
 #include "../inc/api.h"
+#include "../inc/square.h"
 
 int main(void)
 {
@@ -18,7 +19,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "Game Engine", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -33,6 +34,7 @@ int main(void)
     {
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
+        drawSquare();
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
